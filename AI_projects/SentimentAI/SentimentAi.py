@@ -6,7 +6,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import classification_report, accuracy_score
 
 # -- Load the dataset --
-df = pd.read_csv("IMDB Dataset.csv") 
+df = pd.read_csv("IMDB_Dataset.csv") 
 # print("Number of records:", len(df))
 # print(df.head())
 
